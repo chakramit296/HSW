@@ -1,0 +1,10 @@
+credits:
+	fig01.png, fig02.png - canva (https://www.canva.com/)
+	L1.jpg, L2.jpg, L3.jpg, L4.jpg, L7.jpg - freepik (https://www.freepik.com/)
+	L5.png, L6.png - logowik (https://logowik.com/)
+	landpic.png - pexel (https://www.pexels.com/)
+	t1.png, t2.png, t3.png, t4.png - PNGWing (https://www.pngwing.com/)
+	fonts - Geogle Fonts (https://fonts.google.com/)
+		Font Awesome Free (https://fontawesome.com/)
+	removebg (https://www.remove.bg/)
+	Image Resizer (https://imageresizer.com/)

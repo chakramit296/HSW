@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Fondamento&family=Iceland&family=Sancreek&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: sans-serif;
+  /* background-color: rgb(250, 139, 13); */
+  height: 710px;
+  overflow: hidden;
+}
+.container {
+  height: 100vw;
+  width: 100vh;
+  /* background-color: rgb(42, 168, 175); */
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-x: hidden;
+}
+.box {
+  background-color: rgba(0, 0, 0, 0.952);
+  /* box-shadow: 0px 5px 10px rgb(156, 38, 230); */
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: left top;
+  display: flex;
+}
+.page {
+  /* background-color: darkgreen; */
+  width: 100vw;
+  height: 710px;
+  display: flex;
+  box-shadow: 0px 1px 10px rgb(156, 38, 230) inset;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* .box .page:nth-child(1) {
+  background-color: rgba(93, 205, 249, 0.5);
+} */
+/* .box .page:nth-child(2) {
+  background-color: rgb(18, 150, 29);
+}
+.box .page:nth-child(3) {
+  background-color: rgb(167, 15, 124);
+}
+.box .page:nth-child(4) {
+  background-color: rgb(159, 38, 34);
+} */
+.fig01,
+.fig02 {
+  width: 450px;
+  /* height: 50%; */
+  margin: -100px 15px;
+  position: absolute;
+  /* z-index: -2; */
+  filter: brightness(65%);
+  /* animation: downward 10s linear infinite; */
+  z-index: -1;
+}
+.fig01 {
+  /* background-color: crimson; */
+  animation: downward 20s linear infinite;
+}
+.fig02 {
+  /* background-color: gold; */
+  margin: 390px 830px;
+  animation: upward 20s linear infinite;
+}
+.port_pic {
+  margin-left: 830px;
+  height: 710px;
+  position: absolute;
+  filter: grayscale(100%);
+  /* z-index: 1; */
+}
+h1 {
+  position: absolute;
+  font-family: "Beau Rivage", cursive;
+  font-weight: 100;
+  font-size: 65px;
+  float: left;
+  width: 75vw;
+  padding: 240px 30px;
+  /* z-index: 1; */
+}
+.fnd {
+  font-family: "Fondamento", cursive;
+}
+.code {
+  font-family: "Iceland", cursive;
+}
+.dsn {
+  font-family: "Sancreek", cursive;
+}
+@keyframes downward {
+  0% {
+    /* left: 0px; */
+    top: -17px;
+    /* width: 450px; */
+  }
+  50% {
+    /* left: 0px; */
+    top: 500px;
+  }
+  100% {
+    /* left: 0px; */
+    top: -17px;
+    /* width: 450px; */
+  }
+}
+
+@keyframes upward {
+  0% {
+    /* left: 0px; */
+    top: 0px;
+  }
+  50% {
+    /* left: 0px; */
+    top: -532px;
+  }
+  100% {
+    /* left: 0px; */
+    top: 0px;
+  }
+}
+.tplt {
+  margin-left: 8%;
+  justify-content: center;
+  position: absolute;
+  animation: temp_up 60s linear infinite;
+}
+.template {
+  width: 280px;
+  height: 1200px;
+  margin: 6px;
+}
+@keyframes temp_up {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -1750px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+.lgs {
+  margin-left: 30%;
+  width: 50%;
+  margin-top: 2%;
+}
+.logo {
+  height: 200px;
+  margin: 10px;
+}
+.cntc {
+  margin-left: 10%;
+  justify-content: center;
+  position: absolute;
+  margin-top: 1%;
+}
+.cntc div {
+  margin: 6px;
+  font-size: 40px;
+  font-family: "Fondamento", cursive;
+}
+.ftr {
+  font-style: italic;
+  position: absolute;
+  padding: 650px 500px;
+}
